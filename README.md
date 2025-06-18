@@ -33,16 +33,10 @@ Setup
 
 Clone the repo:
 
-bash
-Kopyala
-Düzenle
 git clone https://github.com/kadirTPL/lawyerApp.git
 cd lawyerApp
 Create the database and tables (adjust script as needed):
 
-sql
-Kopyala
-Düzenle
 CREATE DATABASE LawyerAppDB;
 /* Run the SQL script from `SQLProject/` to create tables */
 Update your connection string in App.config or code to point at LawyerAppDB.
